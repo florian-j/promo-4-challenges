@@ -48,4 +48,5 @@ def ascending_order(an_array)
   # TODO: return a copy of an_array with elements in ascending order
   # example: ascending_order([7, 3, 1, 6, 9]) => [1, 3, 6, 7, 9]
   an_array.sort
+
 end
