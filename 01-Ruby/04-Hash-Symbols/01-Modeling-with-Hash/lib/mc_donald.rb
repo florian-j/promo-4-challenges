@@ -46,8 +46,7 @@ end
 
 p calories_counter("Cheese Burger", "French fries")
 
-
-# p poor_calories_counter("Cheese Burger", "French fries", "Sprite")
+p poor_calories_counter("Cheese Burger", "French fries", "Sprite")
 
 # calories = {
 #   "Cheese Burger" => 290,
