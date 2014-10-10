@@ -38,7 +38,7 @@ def calories_counter(*orders)
     elsif BEVERAGE_HASH.include?(item)
       cal = cal + BEVERAGE_HASH[item]
     elsif MEALS_HASH.include?(item)
-      cal = cal + MEALS_HASH.include?[item]
+      cal = cal + MEALS_HASH[item]
     end
   end
   return cal
