@@ -9,11 +9,7 @@ def most_successfull(number, max_year, file_name)
   tab_movies = []
 
   CSV.foreach(file_name, csv_options) do |row|
-    hash_movie = {
-      name: row[0],
-      year: row[1].to_i,
-      earnings: row[2].to_i
-    }
+    hash_movie = { name: row[0], year: row[1].to_i, earnings: row[2].to_i }
     tab_movies << hash_movie
   end
 
