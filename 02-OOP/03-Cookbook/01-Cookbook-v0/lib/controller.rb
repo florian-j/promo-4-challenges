@@ -7,11 +7,11 @@ class Controller
   end
 
   def list
-    @display.print_all_recipes(@cookbook)
+    @display.print_to_user_all_recipes(@cookbook)
   end
 
   def create
-    new_recipe_from_user = @display.new_recipe
+    new_recipe_from_user = @display.ask_user_to_create_a_new_recipe
     new_recipe = Recipe.new(new_recipe_from_user[0], new_recipe_from_user[1])
     @cookbook.recipes << new_recipe
   end
