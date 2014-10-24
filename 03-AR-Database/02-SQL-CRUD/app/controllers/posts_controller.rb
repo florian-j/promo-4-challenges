@@ -13,17 +13,23 @@ class PostsController
 
   def create
     # TODO: implement creating a new post
+    # post_new = Post.new
+    # post_new.save
+
   end
 
   def update
     # TODO: implement updating an existing post
+
   end
 
   def destroy
     # TODO: implement destroying a post
+
   end
 
   def upvote
     # TODO: implement upvoting a post
+
   end
 end
