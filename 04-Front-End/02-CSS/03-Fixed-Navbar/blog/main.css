@@ -1,5 +1,36 @@
+body{
+  padding-top: 100px;
+}
+
 .container {
   margin: 0 auto;
   width: 840px;
 	font-family: 'Open Sans', sans-serif;
+}
+
+.nav-content{
+  width: 840px;
+  margin: 0 auto;
+}
+
+header {
+  color: white;
+  background-color: black;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+h1 {
+  display: inline-block;
+}
+
+nav {
+  display: inline-block;
+  margin-left: 50px;
+}
+
+a{
+  color: white;
 }

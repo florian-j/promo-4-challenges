@@ -1,6 +1,10 @@
 .container {
-  margin: 0 auto;  
+  margin: 0 auto;
   width: 840px;
 }
 
-/*Add some CSS rules to design your form */ 
+h1{
+  text-align: center;
+}
+
+/*Add some CSS rules to design your form */
