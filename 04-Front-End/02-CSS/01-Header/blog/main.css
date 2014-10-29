@@ -3,3 +3,46 @@
   width: 720px;
 	font-family: 'Open Sans', sans-serif;
 }
+
+body {
+font-weight: 300;
+}
+
+h1 {
+  text-align: center;
+}
+
+header ul {
+list-style-type: none;
+margin: 0;
+padding: 0;
+text-align: center;
+}
+
+ul, menu, dir {
+display: block;
+list-style-type: disc;
+-webkit-margin-before: 1em;
+-webkit-margin-after: 1em;
+-webkit-margin-start: 0px;
+-webkit-margin-end: 0px;
+-webkit-padding-start: 40px;
+}
+
+header li {
+display: inline-block;
+}
+
+li {
+  text-align: -webkit-match-parent;
+}
+
+header a {
+display: block;
+width: 100px;
+}
+
+header {
+border-bottom: 1px dotted grey;
+padding: 10px;
+}
