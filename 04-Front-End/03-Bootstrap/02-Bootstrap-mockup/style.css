@@ -1,0 +1,18 @@
+.banner {
+  background-image: url('https://unsplash.imgix.net/reserve/wPCyys8TPCHY3GXm2N2D_ssp_inthewoods_1.jpg?q=75&fm=jpg&s=3b3d9ee14e903890db2ebe5962a8b72f');
+  background-size: cover;
+  padding-top: 200px;
+  padding-bottom: 300px;
+  color: white
+}
+
+#footer{
+  background-color: black;
+  color: grey;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+#footer a {
+  color: white;
+}
