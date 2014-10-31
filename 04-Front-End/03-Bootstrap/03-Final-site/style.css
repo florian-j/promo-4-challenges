@@ -1,0 +1,41 @@
+.feature{
+  border: 1px dotted grey;
+  background-color: #FFF8F0;
+  margin-bottom: 10px;
+}
+
+.city{
+  font-weight: 500;
+  background-color: #F0EAC6;
+}
+
+.city i:hover{
+  color: red;
+}
+
+.black-bg{
+  background-color: grey;
+  color: white;
+  margin-top: 10px;
+  padding-top: 10px;
+  padding-bottom: 20px;
+}
+
+.black-bg a {
+  font-family: 'Droid Serif', serif;
+  color: white;
+  font-size: 20px;
+}
+
+.vertical-spacer{
+  height: 3em;
+}
+
+button{
+  width: 150px;
+}
+
+body {
+  background-image: url("seamless_paper_texture.png");
+}
+
