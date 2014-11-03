@@ -40,21 +40,24 @@ function run_challenges() {
   // Ex 7. Write some code to sum all points given to all teams
   var sum = 0;  // TODO: replace 0 with your sum result, keep the sum variable.
 
-  $('tbody tr td:nth-child(3)').each
+  // $('tbody tr td:nth-child(3)').each(function(i) {
+  //  sum += parseInt($(this).text());
 
-
+   $('tbody tr td:nth-child(3)').each(function(i) {
+    sum += parseInt($(this).text());
+  });
 
   // Ex 8. Change the background color of all table header cells to #DDF4FF
 
-
+  $('th').css('background-color', '#DDF4FF');
 
   // Ex 9. Translate the #results list 20px downward (animation would be great ^_^)
 
-
+  $( "#results" ).animate({ "top": "+=20px" }, "slow" );
 
   // Ex 10. Remove the "Email:" label from the DOM
 
-
+  $( 'label' ).remove();
 
   // Checking exercise answers. DO NOT MODIFY BELOW
   assert_equal(email, "boris@lewagon.org");
