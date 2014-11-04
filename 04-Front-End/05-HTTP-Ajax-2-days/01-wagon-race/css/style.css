@@ -1,0 +1,39 @@
+.racer_table td {
+  background-color: lightgrey;
+  height: 100px;
+  width: 100px;
+  border: black;
+}
+
+.racer_table td.active {
+}
+
+#player1_race td.active {
+   background-image: url('../img/player_1.png');
+   background-size: 100%;
+   background-repeat: no-repeat;
+}
+
+#player2_race td.active {
+  background-image: url('../img/player_2.png');
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+#end-game {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: blue;
+  opacity: 0.6;
+  color: black;
+  padding-top: 20%;
+  display: none;
+}
+
+#end-game p {
+  font-size: 50;
+  font-weight: 700;
+}
